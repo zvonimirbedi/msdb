@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "3038c03e-064a-490c-b739-2193ecd40bca",
+		"name": "MSDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.themoviedb.org/3/movie/550?api_key=892ebdffd01b1f1c99740e2b20909e1d",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/search/multi?api_key=892ebdffd01b1f1c99740e2b20909e1d&page=1&query=batman",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"search",
+						"multi"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "892ebdffd01b1f1c99740e2b20909e1d"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "query",
+							"value": "batman"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.omdbapi.com/?t=pokemon&apikey=42a99fd4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?t=pokemon&apikey=42a99fd4",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "t",
+							"value": "pokemon"
+						},
+						{
+							"key": "apikey",
+							"value": "42a99fd4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
